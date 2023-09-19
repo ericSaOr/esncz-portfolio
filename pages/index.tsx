@@ -27,8 +27,7 @@ export default function Home() {
 
       </section>
 
-      {/* Experience */}
-      <section>
+      <section id="experience" className="snap-center">
         <Experience />
       </section>
 
