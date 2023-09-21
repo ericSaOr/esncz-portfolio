@@ -5,7 +5,9 @@ import { motion } from 'framer-motion'
 type Props = {}
 
 const ExperienceCard = (props: Props) => {
-  return <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:[w-900px] snap-center bg-[#292929]">
+  return <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
+  w-[500px] md:w-[600px] xl:[w-900px] snap-center bg-[#292929] p-10 hover:opacity-100 
+  opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
     <motion.img
     initial={{
         y: -100,
@@ -46,11 +48,11 @@ const ExperienceCard = (props: Props) => {
          <p className="uppercase py-5 text-gray-300">Started work... -ended....</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-            <li>Summary Points</li>
-            <li>Summary Points</li>
-            <li>Summary Points</li>
-            <li>Summary Points</li>
-            <li>Summary Points</li>
+            <li>Summary PointsSummary PointsSummary PointsSummary </li>
+            <li>Summary PointsSummary PointsSummary PointsSummary </li>
+            <li>Summary PointsSummary PointsSummary PointsSummary </li>
+            <li>Summary PointsSummary PointsSummary PointsSummary </li>
+            <li>Summary PointsSummary PointsSummary PointsSummary </li>
         </ul>
         
     </div>
