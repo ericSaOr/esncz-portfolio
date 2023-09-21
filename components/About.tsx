@@ -29,7 +29,7 @@ function About({}: Props) {
             viewport={{once: true}} //makes the animation only run once. 
             alt='An image of Eric Sanchez'
             className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover 
-            md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+            md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] items-center"
             />
 
             <div className="space-y-10 px-0 md:px-10">
