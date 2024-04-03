@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
 type Props = {}
@@ -14,7 +15,7 @@ const Projects = (props: Props) => {
           <img src="https://unsplash.com/photos/a-laptop-and-a-potted-plant-IqBY9blj8Ks"
           alt="A laptop and a potted plant."/>
           <div>
-            <h4>Project 1: Heck Yeah!</h4>
+            <h3>Project 1: Heck Yeah!</h3>
             </div>
 
         </div>
